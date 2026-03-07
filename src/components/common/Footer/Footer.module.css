@@ -144,7 +144,7 @@
 .contactLabelRow {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 6px;
 }
 
@@ -487,6 +487,10 @@ a.contactValue:hover {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .contactLabelRow {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -519,6 +523,10 @@ a.contactValue:hover {
   .legalSection p,
   .legalSection li {
     font-size: var(--fs-xs);
+  }
+
+  .contactLabelRow {
+    justify-content: center;
   }
 }
 
@@ -571,6 +579,10 @@ a.contactValue:hover {
 
   .legalSection {
     margin-bottom: var(--space-5);
+  }
+
+  .contactLabelRow {
+    justify-content: center;
   }
 }
 

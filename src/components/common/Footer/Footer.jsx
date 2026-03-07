@@ -150,9 +150,7 @@ const TermsConditionsContent = () => (
           Results and rankings mentioned are based on past performance and do
           not guarantee future outcomes.
         </li>
-        <li>
-          Images and representations are for illustrative purposes only.
-        </li>
+        <li>Images and representations are for illustrative purposes only.</li>
         <li>
           Availability of courses and batches is subject to real-time status.
         </li>
@@ -320,7 +318,7 @@ const LegalModal = ({ isOpen, onClose, title, children }) => {
         </motion.div>
       )}
     </AnimatePresence>,
-    document.body
+    document.body,
   );
 };
 
@@ -384,7 +382,11 @@ const Footer = () => {
                   <img
                     src="https://www.narayanacoachingcenters.in/images/logo.png"
                     alt="Narayana Coaching Centers"
-                    style={{ height: '36px', width: 'auto', filter: 'brightness(0) invert(1)' }}
+                    style={{
+                      height: "36px",
+                      width: "auto",
+                      filter: "brightness(0) invert(1)",
+                    }}
                   />
                 </div>
                 <p className={styles.tagline}>
@@ -502,7 +504,11 @@ const Footer = () => {
                       <span className={styles.contactLabel}>Address</span>
                     </div>
                     <span className={styles.contactValue}>
-                      Guwahati, Assam
+                      Nilomani Phukan Path
+                      <br />
+                      Nearby Tanishq Showroom, Sree Nagar
+                      <br />
+                      Guwahati, Assam 781005
                     </span>
                   </li>
                 </ul>
