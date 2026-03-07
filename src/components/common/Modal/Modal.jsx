@@ -1,5 +1,5 @@
 /* ============================================
-   Modal Component - Narayana IIT-JEE
+   Modal Component - Narayana NEET
    Animated modal/dialog with multiple variants
    ============================================ */
 

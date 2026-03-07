@@ -1,7 +1,7 @@
 {
-  "short_name": "Narayana IIT-JEE",
-  "name": "Narayana IIT-JEE Coaching - Guwahati",
-  "description": "Best IIT-JEE coaching center in Guwahati. Expert faculty, proven results, and comprehensive study material for IIT-JEE aspirants.",
+  "short_name": "Narayana NEET",
+  "name": "Narayana NEET Coaching - Guwahati",
+  "description": "Best NEET coaching center in Guwahati. Expert faculty, proven results, and comprehensive study material for NEET aspirants.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -26,7 +26,7 @@
   "orientation": "portrait-primary",
   "theme_color": "#1A237E",
   "background_color": "#FFFFFF",
-  "categories": ["education", "coaching", "IIT-JEE", "Narayana"],
+  "categories": ["education", "coaching", "NEET", "Narayana"],
   "lang": "en-IN",
   "dir": "ltr",
   "scope": "/",

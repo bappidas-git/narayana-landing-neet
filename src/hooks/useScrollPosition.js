@@ -1,5 +1,5 @@
 /* ============================================
-   useScrollPosition Hook - Narayana IIT-JEE
+   useScrollPosition Hook - Narayana NEET
    Custom hook for tracking scroll position
    ============================================ */
 

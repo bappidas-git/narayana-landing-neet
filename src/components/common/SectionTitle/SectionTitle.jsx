@@ -1,5 +1,5 @@
 /* ============================================
-   SectionTitle Component - Narayana IIT-JEE
+   SectionTitle Component - Narayana NEET
    Reusable section title with badge and animations
    ============================================ */
 

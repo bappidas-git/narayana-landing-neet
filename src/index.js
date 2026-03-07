@@ -1,6 +1,6 @@
 /* ============================================
    Entry Point - Narayana Coaching Centers
-   IIT-JEE Landing Page
+   NEET Coaching Landing Page
 
    Performance optimized with:
    - React 18 concurrent features

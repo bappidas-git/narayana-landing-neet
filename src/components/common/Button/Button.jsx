@@ -1,5 +1,5 @@
 /* ============================================
-   Button Component - Narayana IIT-JEE
+   Button Component - Narayana NEET
    Reusable button with multiple variants and animations
    ============================================ */
 

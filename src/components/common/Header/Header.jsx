@@ -1,5 +1,5 @@
 /* ============================================
-   Header Component - Narayana IIT-JEE Coaching
+   Header Component - Narayana NEET Coaching
    Fixed header with scroll behavior and navigation
    ============================================ */
 

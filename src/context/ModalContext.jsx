@@ -1,5 +1,5 @@
 /* ============================================
-   Modal Context - Narayana IIT-JEE Coaching
+   Modal Context - Narayana NEET Coaching
    Handles modal state management across the app
    ============================================ */
 

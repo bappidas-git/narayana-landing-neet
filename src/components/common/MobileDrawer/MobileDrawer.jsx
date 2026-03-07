@@ -299,7 +299,7 @@ const MobileDrawer = ({ open, onClose, onOpen, activeSection = "home" }) => {
               <span>Call Us</span>
             </motion.a>
             <motion.a
-              href="https://wa.me/916002500672"
+              href="https://wa.me/916002500672?text=Hi,%20I%20am%20interested%20in%20Narayana%20NEET%20Coaching%20in%20Guwahati"
               className={styles.contactLinkWhatsapp}
               target="_blank"
               rel="noopener noreferrer"

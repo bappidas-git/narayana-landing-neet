@@ -1,5 +1,5 @@
 /* ============================================
-   App Component - Narayana IIT-JEE
+   App Component - Narayana NEET
    Main application component with providers,
    lazy loading, and performance optimizations
    ============================================ */

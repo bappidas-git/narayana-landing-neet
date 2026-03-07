@@ -1,6 +1,6 @@
 /* ============================================
    Web Vitals Performance Monitoring
-   Narayana IIT-JEE
+   Narayana NEET
 
    Measures Core Web Vitals:
    - CLS (Cumulative Layout Shift)

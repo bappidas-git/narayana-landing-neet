@@ -1,5 +1,5 @@
 /* ============================================
-   Validators - Narayana IIT-JEE
+   Validators - Narayana NEET
    Form validation utilities
    ============================================ */
 
