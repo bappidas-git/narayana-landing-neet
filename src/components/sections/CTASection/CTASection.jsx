@@ -1,6 +1,6 @@
 /* ============================================
-   CTASection Component - Narayana IIT-JEE
-   "Your Dream IIT Seat is One Step Away"
+   CTASection Component - Narayana NEET
+   "Your Dream Medical Seat is One Step Away"
    Dark indigo CTA with stats and enrollment buttons
    ============================================ */
 
@@ -77,7 +77,7 @@ const CTASection = () => {
           {/* Headline */}
           <motion.div variants={itemVariants}>
             <Typography variant="h3" className={styles.title}>
-              Your Dream IIT Seat is{" "}
+              Your Dream Medical Seat is{" "}
               <span className={styles.highlight}>One Step Away</span>
             </Typography>
           </motion.div>
@@ -89,8 +89,8 @@ const CTASection = () => {
               className={styles.description}
               sx={{ color: "#fff" }}
             >
-              Join thousands of successful Narayana students who cracked
-              IIT-JEE. Limited seats available for 2025-26 batch in Guwahati.
+              Join thousands of successful Narayana students who 
+              NEET. Limited seats available for 2025-26 batch in Guwahati.
             </Typography>
           </motion.div>
 

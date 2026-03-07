@@ -1,6 +1,6 @@
 /* ============================================
    HighlightsSection Component - Results & Achievements
-   Showcases Narayana's IIT-JEE results and testing ecosystem
+   Showcases Narayana's NEET results and testing ecosystem
    ============================================ */
 
 import React, { useRef } from "react";
@@ -41,11 +41,11 @@ const resultsData = [
     id: 1,
     icon: "mdi:trophy-award",
     iconColor: "#FFD700",
-    title: "JEE Advanced 2024",
+    title: "NEET 2024",
     stat: 5,
     statSuffix: "",
-    statLabel: "out of Top 10 AIR Every Year (Open Category)",
-    subStats: "30 in Top 100",
+    statLabel: "out of Top 10 AIR (All Categories)",
+    subStats: "3,128 Students Became Doctors in 2024",
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ const resultsData = [
     title: "International Recognition",
     stat: null,
     statLabel:
-      "Students regularly achieve top ranks in International Science & Mathematics Olympiads",
+      "Students regularly achieve top ranks in International Science Olympiads",
     subStats: null,
   },
   {
@@ -64,7 +64,7 @@ const resultsData = [
     title: "Overall Selections",
     stat: null,
     statLabel:
-      "Thousands of students selected in IIT-JEE every year across all Narayana centers",
+      "Thousands of students selected in NEET every year, making their MBBS dreams a reality",
     subStats: null,
   },
 ];
@@ -105,7 +105,7 @@ const testTypes = [
     icon: "mdi:star-circle-outline",
     name: "Grand Test",
     tag: null,
-    description: "Full-length simulated JEE exam experience",
+    description: "Full-length simulated NEET exam experience",
   },
 ];
 
@@ -153,7 +153,7 @@ const HighlightsSection = () => {
               <span className={styles.underlineBar} />
             </div>
             <Typography className={styles.sectionSubtitle}>
-              Narayana's Consistent Track Record in IIT-JEE
+              Narayana's Consistent Track Record in NEET
             </Typography>
           </motion.div>
 

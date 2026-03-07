@@ -1,5 +1,5 @@
 /* ============================================
-   LocationSection Component - Narayana IIT-JEE
+   LocationSection Component - Narayana NEET
    Our Centre section showing Guwahati centre info
    ============================================ */
 
@@ -102,7 +102,7 @@ const LocationSection = () => {
           badge="OUR CENTRE"
           title="Narayana Coaching Centre in"
           highlight="Guwahati"
-          subtitle="Bringing world-class IIT-JEE coaching to Assam & North-East India"
+          subtitle="Bringing world-class NEET coaching to Assam & North-East India"
           align="center"
           variant="light"
           badgeVariant="gold"
