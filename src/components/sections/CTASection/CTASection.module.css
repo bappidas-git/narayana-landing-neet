@@ -1,0 +1,334 @@
+/* ============================================
+   CTASection Styles - Narayana IIT-JEE
+   Dark indigo gradient CTA section
+   ============================================ */
+
+/* Section Container */
+.section {
+  position: relative;
+  padding: var(--space-16) 0;
+  background: linear-gradient(135deg, #1a237e 0%, #0d1754 100%);
+  overflow: hidden;
+}
+
+/* Background Overlay Image */
+.bgOverlay {
+  position: absolute;
+  inset: 0;
+  background-image: url("https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1920&h=600&fit=crop");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.08;
+  pointer-events: none;
+}
+
+/* Background Pattern */
+.bgPattern {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(
+      circle at 20% 50%,
+      rgba(255, 255, 255, 0.06) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 80% 20%,
+      rgba(255, 255, 255, 0.04) 0%,
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 60% 80%,
+      rgba(255, 255, 255, 0.03) 0%,
+      transparent 35%
+    );
+  pointer-events: none;
+}
+
+/* Content Container */
+.content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-6);
+}
+
+/* Main Title */
+.title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  font-weight: var(--fw-bold);
+  color: #ffffff !important;
+  line-height: var(--lh-tight);
+  max-width: 700px;
+}
+
+.highlight {
+  position: relative;
+  display: inline-block;
+  color: var(--accent-gold) !important;
+}
+
+.highlight::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--accent-gold);
+  border-radius: var(--radius-full);
+  opacity: 0.4;
+}
+
+/* Description */
+.description {
+  font-size: var(--fs-md);
+  color: rgba(255, 255, 255, 0.85);
+  line-height: var(--lh-relaxed);
+  max-width: 600px;
+}
+
+/* Stats Row */
+.statsRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-6);
+  flex-wrap: wrap;
+  padding: var(--space-4) 0;
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.statIcon {
+  font-size: 1.5rem;
+  color: var(--accent-gold);
+}
+
+.statValue {
+  font-family: var(--font-heading);
+  font-size: var(--fs-xl);
+  font-weight: var(--fw-bold);
+  color: #ffffff;
+}
+
+.statLabel {
+  font-size: var(--fs-sm);
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: var(--fw-medium);
+}
+
+.statDivider {
+  width: 1px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* CTA Buttons */
+.ctaButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  margin-top: var(--space-2);
+}
+
+.primaryBtn {
+  min-width: 260px;
+  box-shadow: 0 8px 25px rgba(255, 109, 0, 0.4);
+}
+
+.primaryBtn:hover {
+  box-shadow: 0 12px 35px rgba(255, 109, 0, 0.5);
+}
+
+.secondaryBtn {
+  min-width: 200px;
+  border-color: rgba(255, 255, 255, 0.6) !important;
+  color: #ffffff !important;
+}
+
+.secondaryBtn:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-color: #ffffff !important;
+}
+
+/* Corner Decorations */
+.cornerDecoration1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.06) 0%,
+    transparent 70%
+  );
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  pointer-events: none;
+}
+
+.cornerDecoration2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(
+    315deg,
+    rgba(255, 109, 0, 0.1) 0%,
+    transparent 70%
+  );
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  pointer-events: none;
+}
+
+/* ============================================
+   Tablet Styles (768px - 1023px)
+   ============================================ */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .section {
+    padding: var(--space-14) 0;
+  }
+}
+
+/* ============================================
+   Mobile Styles (below 768px)
+   ============================================ */
+@media (max-width: 767px) {
+  .section {
+    padding: var(--space-12) 0;
+  }
+
+  .title {
+    font-size: var(--fs-2xl);
+  }
+
+  .highlight::after {
+    height: 3px;
+    bottom: 1px;
+  }
+
+  .description {
+    font-size: var(--fs-sm);
+  }
+
+  .statsRow {
+    gap: var(--space-4);
+  }
+
+  .statDivider {
+    display: none;
+  }
+
+  .statItem {
+    flex-direction: column;
+    gap: var(--space-1);
+    text-align: center;
+  }
+
+  .statValue {
+    font-size: var(--fs-lg);
+  }
+
+  .statLabel {
+    font-size: var(--fs-xs);
+  }
+
+  .ctaButtons {
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .primaryBtn,
+  .secondaryBtn {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .cornerDecoration1,
+  .cornerDecoration2 {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Small Mobile (below 480px) */
+@media (max-width: 479px) {
+  .section {
+    padding: var(--space-10) 0;
+  }
+
+  .title {
+    font-size: var(--fs-xl);
+  }
+
+  .description {
+    font-size: var(--fs-xs);
+    line-height: 1.7;
+  }
+
+  .primaryBtn,
+  .secondaryBtn {
+    min-width: unset;
+    max-width: 100%;
+  }
+}
+
+/* ============================================
+   Touch Device Optimizations
+   ============================================ */
+@media (hover: none) and (pointer: coarse) {
+  .primaryBtn:hover,
+  .secondaryBtn:hover {
+    transform: none;
+  }
+}
+
+/* ============================================
+   Reduced Motion
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+  .primaryBtn,
+  .secondaryBtn {
+    transition: none;
+  }
+}
+
+/* ============================================
+   Print Styles
+   ============================================ */
+@media print {
+  .section {
+    background: #f5f7fa;
+    padding: var(--space-8) 0;
+  }
+
+  .bgOverlay,
+  .bgPattern,
+  .cornerDecoration1,
+  .cornerDecoration2 {
+    display: none;
+  }
+
+  .title,
+  .description,
+  .statValue,
+  .statLabel {
+    color: #1a237e !important;
+  }
+
+  .ctaButtons {
+    display: none;
+  }
+}

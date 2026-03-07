@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" type="image/png" />
+
+    <!-- =========================================
+         Viewport & Mobile Optimization
+         ========================================= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover" />
+    <meta name="theme-color" content="#1A237E" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#1A237E" media="(prefers-color-scheme: light)" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Narayana IIT-JEE" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-TileColor" content="#1A237E" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <!-- =========================================
+         SEO Meta Tags
+         ========================================= -->
+    <meta name="description" content="Join Narayana Coaching Centers in Guwahati — India's #1 IIT-JEE Coaching. 5 out of Top 10 AIR every year, 47+ years legacy, 950+ schools, 350+ centres, up to 90% NACST & NSAT scholarship. TYCP, OYCP & Repeater programmes. Call 6002500672." />
+    <meta name="keywords" content="IIT JEE coaching Guwahati, best JEE coaching India, Narayana coaching center Guwahati, JEE Main coaching Assam, JEE Advanced preparation, IIT coaching North East India, NACST scholarship test, NSAT scholarship, engineering entrance coaching Assam, Narayana IIT JEE, TYCP programme, OYCP programme" />
+    <meta name="author" content="Narayana Coaching Centers" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="geo.region" content="IN-AS" />
+    <meta name="geo.placename" content="Guwahati" />
+
+    <!-- =========================================
+         Open Graph / Facebook
+         ========================================= -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="%PUBLIC_URL%/" />
+    <meta property="og:title" content="Narayana IIT-JEE Coaching | Best JEE Coaching in Guwahati, Assam" />
+    <meta property="og:description" content="Crack IIT-JEE with Narayana Coaching Centers. 47+ years of excellence, top results, up to 90% NACST & NSAT scholarship. Now in Guwahati!" />
+    <meta property="og:image" content="%PUBLIC_URL%/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Narayana IIT-JEE Coaching Guwahati" />
+    <meta property="og:site_name" content="Narayana Coaching Centers" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- =========================================
+         Twitter Card
+         ========================================= -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="%PUBLIC_URL%/" />
+    <meta name="twitter:title" content="Narayana IIT-JEE Coaching | Best JEE Coaching in Guwahati, Assam" />
+    <meta name="twitter:description" content="Crack IIT-JEE with Narayana Coaching Centers. 47+ years of excellence, top results, up to 90% NACST & NSAT scholarship. Now in Guwahati!" />
+    <meta name="twitter:image" content="%PUBLIC_URL%/og-image.jpg" />
+
+    <!-- =========================================
+         Canonical & Alternate URLs
+         ========================================= -->
+    <link rel="canonical" href="%PUBLIC_URL%/" />
+
+    <!-- =========================================
+         PWA Manifest & Icons
+         ========================================= -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="%PUBLIC_URL%/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon-180x180.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="%PUBLIC_URL%/apple-touch-icon-167x167.png" />
+    <link rel="mask-icon" href="%PUBLIC_URL%/safari-pinned-tab.svg" color="#FF6D00" />
+
+    <!-- =========================================
+         Preconnect & DNS Prefetch
+         ========================================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://api.iconify.design" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="https://images.unsplash.com" />
+
+    <!-- =========================================
+         Preload Critical Resources
+         ========================================= -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <!-- =========================================
+         Page Title
+         ========================================= -->
+    <title>Narayana IIT-JEE Coaching Guwahati | #1 JEE Coaching in India | 47+ Years | Enroll Now</title>
+
+    <!-- =========================================
+         Structured Data / JSON-LD for SEO
+         ========================================= -->
+
+    <!-- Schema 1: EducationalOrganization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "Narayana Coaching Centers - Guwahati",
+        "alternateName": "Narayana IIT-JEE Coaching Guwahati",
+        "url": "",
+        "logo": "",
+        "description": "Narayana Coaching Centers offers the best IIT-JEE coaching in Guwahati, Assam. With 47+ years of academic excellence, 5 out of top 10 AIR every year, 950+ schools, 350+ centres, and up to 90% scholarship through NACST & NSAT.",
+        "telephone": "+916002500672",
+        "email": "bm.guwahati@narayanagroup.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Guwahati",
+          "addressRegion": "Assam",
+          "addressCountry": "IN"
+        },
+        "areaServed": [
+          {"@type": "State", "name": "Assam"},
+          {"@type": "State", "name": "Meghalaya"},
+          {"@type": "State", "name": "Nagaland"},
+          {"@type": "State", "name": "Manipur"},
+          {"@type": "State", "name": "Mizoram"},
+          {"@type": "State", "name": "Tripura"},
+          {"@type": "State", "name": "Arunachal Pradesh"},
+          {"@type": "State", "name": "Sikkim"},
+          {"@type": "State", "name": "West Bengal"}
+        ],
+        "sameAs": [
+          "https://www.narayanacoachingcenters.in",
+          "https://www.facebook.com/NarayanaGroup",
+          "https://www.youtube.com/NarayanaGroup"
+        ],
+        "foundingDate": "1979",
+        "parentOrganization": {
+          "@type": "Organization",
+          "name": "Narayana Group",
+          "url": "https://www.narayanagroup.com"
+        }
+      }
+    </script>
+
+    <!-- Schema 2: Course — Two-Year Classroom Programme (TYCP) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "name": "Two-Year Classroom Programme (TYCP) for IIT-JEE Main & Advanced",
+        "description": "Comprehensive 2-year classroom programme (TYCP) for students preparing for IIT-JEE Main & Advanced alongside XII Boards.",
+        "provider": {
+          "@type": "EducationalOrganization",
+          "name": "Narayana Coaching Centers - Guwahati"
+        },
+        "educationalLevel": "Class 11-12",
+        "timeRequired": "P2Y",
+        "coursePrerequisites": "Completed Class 10",
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "onsite",
+          "location": {
+            "@type": "Place",
+            "name": "Narayana Coaching Center, Guwahati",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Guwahati",
+              "addressRegion": "Assam",
+              "addressCountry": "IN"
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Schema 2: Course — Apex/Spark Programme -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "name": "Apex/Spark Programme for IIT-JEE Main & Advanced",
+        "description": "Intensive programme designed for top performers aiming for top ranks in IIT-JEE Main & Advanced.",
+        "provider": {
+          "@type": "EducationalOrganization",
+          "name": "Narayana Coaching Centers - Guwahati"
+        },
+        "educationalLevel": "Class 11-12",
+        "timeRequired": "P2Y",
+        "coursePrerequisites": "Completed Class 10 with excellent academic record",
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "onsite",
+          "location": {
+            "@type": "Place",
+            "name": "Narayana Coaching Center, Guwahati",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Guwahati",
+              "addressRegion": "Assam",
+              "addressCountry": "IN"
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Schema 2: Course — One-Year Classroom Programme (OYCP) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "name": "One-Year Classroom Programme (OYCP) for IIT-JEE",
+        "description": "Focused 1-year classroom programme (OYCP) for Class 12 students preparing for IIT-JEE Main & Advanced.",
+        "provider": {
+          "@type": "EducationalOrganization",
+          "name": "Narayana Coaching Centers - Guwahati"
+        },
+        "educationalLevel": "Class 12",
+        "timeRequired": "P1Y",
+        "coursePrerequisites": "Completed Class 11",
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "onsite",
+          "location": {
+            "@type": "Place",
+            "name": "Narayana Coaching Center, Guwahati",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Guwahati",
+              "addressRegion": "Assam",
+              "addressCountry": "IN"
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Schema 2: Course — Repeater/Dropper Course -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "name": "Repeater/Dropper Course for IIT-JEE Main & Advanced",
+        "description": "Dedicated programme for students who have completed Class 12 and wish to reattempt IIT-JEE with focused preparation.",
+        "provider": {
+          "@type": "EducationalOrganization",
+          "name": "Narayana Coaching Centers - Guwahati"
+        },
+        "educationalLevel": "Post Class 12",
+        "timeRequired": "P1Y",
+        "coursePrerequisites": "Completed Class 12",
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "onsite",
+          "location": {
+            "@type": "Place",
+            "name": "Narayana Coaching Center, Guwahati",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Guwahati",
+              "addressRegion": "Assam",
+              "addressCountry": "IN"
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Schema 2: Course — Foundation Course -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "name": "Foundation Course for IIT-JEE (Class 8-10)",
+        "description": "Early preparation foundation programme for Class 8-10 students aspiring for IIT-JEE, building strong fundamentals in Physics, Chemistry, and Mathematics.",
+        "provider": {
+          "@type": "EducationalOrganization",
+          "name": "Narayana Coaching Centers - Guwahati"
+        },
+        "educationalLevel": "Class 8-10",
+        "timeRequired": "P1Y",
+        "coursePrerequisites": "Enrolled in Class 8, 9, or 10",
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "onsite",
+          "location": {
+            "@type": "Place",
+            "name": "Narayana Coaching Center, Guwahati",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Guwahati",
+              "addressRegion": "Assam",
+              "addressCountry": "IN"
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Schema 3: FAQPage -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What courses does Narayana offer for IIT-JEE in Guwahati?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Narayana Coaching Centers in Guwahati offers Two-Year Classroom Programme (TYCP), One-Year Classroom Programme (OYCP), Apex/Spark Programme, Repeater/Dropper Course, and Foundation Courses for Class 8-10 students."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is NACST and how much scholarship can I get?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "NACST (Narayana Admission cum Scholarship Test) and NSAT (Narayana Scholarship Admission Test) are Narayana's scholarship tests that offer up to 90% scholarship on course fees based on performance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are Narayana's IIT-JEE results?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "5 out of top-10 All India Rankers every year are from Narayana. 18 students in top-50 and 30 students in top-100 AIR in open category."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Narayana coaching available in North-East India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, Narayana Coaching Center is available in Guwahati, Assam, serving students from all North-Eastern states including Meghalaya, Nagaland, Manipur, Mizoram, Tripura, Arunachal Pradesh, and Sikkim."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the admission process for Narayana IIT-JEE coaching?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Students can enroll through NACST (Narayana Admission cum Scholarship Test) or NSAT (Narayana Scholarship Admission Test) to avail scholarships up to 90% and get instant admission. You can also enquire directly by calling 6002500672."
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- Schema 4: LocalBusiness -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Narayana Coaching Centers Guwahati",
+        "image": "",
+        "telephone": "+916002500672",
+        "email": "bm.guwahati@narayanagroup.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Guwahati",
+          "addressRegion": "Assam",
+          "postalCode": "",
+          "addressCountry": "IN"
+        },
+        "priceRange": "₹₹",
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+          "opens": "09:00",
+          "closes": "19:00"
+        }
+      }
+    </script>
+
+    <!-- =========================================
+         Critical CSS (Above the Fold)
+         ========================================= -->
+    <style>
+      /* Critical CSS - Inline for fastest first paint */
+      *, *::before, *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        overflow-x: hidden;
+        background-color: #FFFFFF;
+        color: #1A1A1A;
+        line-height: 1.5;
+      }
+
+      /* Root element setup */
+      #root {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        isolation: isolate;
+      }
+
+      /* Skip link for accessibility */
+      .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        background: #FF6D00;
+        color: #1A237E;
+        padding: 8px 16px;
+        z-index: 10000;
+        font-weight: 600;
+        text-decoration: none;
+        border-radius: 0 0 4px 0;
+        transition: top 0.2s ease;
+      }
+
+      .skip-link:focus {
+        top: 0;
+      }
+
+      /* ============================================
+         Initial Loader — Branded Splash Screen
+         Shown until React mounts, then fades out
+         ============================================ */
+      .initial-loader {
+        position: fixed;
+        inset: 0;
+        z-index: 999999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #FFFFFF;
+        transition: opacity 0.4s ease, visibility 0.4s ease;
+      }
+
+      .initial-loader.hidden {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      /* Wrapper */
+      .loader-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 28px;
+        padding: 24px;
+        max-width: 280px;
+        width: 100%;
+      }
+
+      /* Brand Block */
+      .loader-brand {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .loader-logo-img {
+        width: 180px;
+        height: auto;
+        object-fit: contain;
+        animation: loaderFadeIn 0.6s ease both;
+      }
+
+      .loader-tagline {
+        margin: 0;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        color: #546E7A;
+        letter-spacing: 0.04em;
+        text-align: center;
+        animation: loaderFadeIn 0.6s 0.2s ease both;
+      }
+
+      /* Progress Bar Track */
+      .loader-bar-track {
+        width: 100%;
+        height: 3px;
+        background: #E8EAF6;
+        border-radius: 3px;
+        overflow: hidden;
+        animation: loaderFadeIn 0.4s 0.3s ease both;
+      }
+
+      .loader-bar-fill {
+        height: 100%;
+        width: 0%;
+        border-radius: 3px;
+        background: linear-gradient(90deg, #1A237E, #3949AB, #FF6D00);
+        background-size: 200% 100%;
+        animation: loaderProgress 2s 0.4s ease-in-out forwards, loaderShimmer 1.5s 0.4s ease-in-out infinite;
+      }
+
+      /* Loading Status Text */
+      .loader-status {
+        margin: 0;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        color: #90A4AE;
+        letter-spacing: 0.02em;
+        animation: loaderFadeIn 0.4s 0.4s ease both;
+      }
+
+      /* Animated dots "Loading..." */
+      .loader-dots::after {
+        content: '';
+        animation: loaderDots 1.4s steps(4, end) infinite;
+      }
+
+      /* ============================================
+         Loader Keyframes
+         ============================================ */
+      @keyframes loaderFadeIn {
+        from { opacity: 0; transform: translateY(8px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+
+      @keyframes loaderProgress {
+        0%   { width: 0%; }
+        30%  { width: 40%; }
+        60%  { width: 70%; }
+        100% { width: 92%; }
+      }
+
+      @keyframes loaderShimmer {
+        0%   { background-position: 200% 0; }
+        100% { background-position: -200% 0; }
+      }
+
+      @keyframes loaderDots {
+        0%   { content: ''; }
+        25%  { content: '.'; }
+        50%  { content: '..'; }
+        75%  { content: '...'; }
+        100% { content: ''; }
+      }
+
+      /* Safe area for notched devices (iPhone X+) */
+      @supports (padding-bottom: env(safe-area-inset-bottom)) {
+        body {
+          padding-left: env(safe-area-inset-left);
+          padding-right: env(safe-area-inset-right);
+          padding-bottom: env(safe-area-inset-bottom);
+        }
+      }
+
+      /* ============================================
+         Reduced Motion — Respect user preference
+         ============================================ */
+      @media (prefers-reduced-motion: reduce) {
+        .loader-logo-img,
+        .loader-tagline,
+        .loader-bar-track,
+        .loader-status {
+          animation: none;
+          opacity: 1;
+          transform: none;
+        }
+        .loader-bar-fill {
+          animation: loaderProgress 2s ease-in-out forwards;
+        }
+
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+        }
+
+        html {
+          scroll-behavior: auto;
+        }
+      }
+
+      /* ============================================
+         Dark mode support (if user's OS is dark)
+         ============================================ */
+      @media (prefers-color-scheme: dark) {
+        .initial-loader {
+          background: #0D1754;
+        }
+        .loader-tagline {
+          color: rgba(255, 255, 255, 0.6);
+        }
+        .loader-bar-track {
+          background: rgba(255, 255, 255, 0.1);
+        }
+        .loader-status {
+          color: rgba(255, 255, 255, 0.4);
+        }
+        .loader-logo-img {
+          filter: brightness(0) invert(1);
+        }
+      }
+
+      /* High contrast mode support */
+      @media (prefers-contrast: high) {
+        body {
+          background-color: #000;
+          color: #fff;
+        }
+      }
+
+      /* Print styles */
+      @media print {
+        .initial-loader {
+          display: none !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Noscript fallback -->
+    <noscript>
+      <div style="padding: 20px; text-align: center; background: #1A237E; color: #FFFFFF; font-family: sans-serif;">
+        <h1 style="color: #FF6D00; margin-bottom: 10px;">JavaScript Required</h1>
+        <p>You need to enable JavaScript to run this app.</p>
+        <p style="margin-top: 10px;">Please enable JavaScript in your browser settings and refresh the page.</p>
+      </div>
+    </noscript>
+
+    <!-- Initial Loader — Professional Branded Splash Screen -->
+    <div class="initial-loader" id="initial-loader" role="progressbar" aria-label="Loading Narayana IIT-JEE Coaching">
+      <div class="loader-wrapper">
+
+        <!-- Logo + Brand -->
+        <div class="loader-brand">
+          <img
+            src="https://www.narayanacoachingcenters.in/images/logo.png"
+            alt="Narayana Coaching Centers"
+            class="loader-logo-img"
+            width="180"
+            height="auto"
+          />
+          <p class="loader-tagline">IIT-JEE Coaching — Guwahati</p>
+        </div>
+
+        <!-- Animated Progress Bar -->
+        <div class="loader-bar-track">
+          <div class="loader-bar-fill"></div>
+        </div>
+
+        <!-- Loading text -->
+        <p class="loader-status">Loading<span class="loader-dots"></span></p>
+
+      </div>
+    </div>
+
+    <!-- React Root -->
+    <div id="root"></div>
+
+    <!-- Hide initial loader when React is ready -->
+    <script>
+      (function() {
+        // Performance mark for load timing
+        if (window.performance && window.performance.mark) {
+          window.performance.mark('loader-start');
+        }
+
+        // Hide loader on window load
+        window.addEventListener('load', function() {
+          // Give React time to mount
+          setTimeout(function() {
+            var loader = document.getElementById('initial-loader');
+            if (loader) {
+              loader.classList.add('hidden');
+
+              // Remove from DOM after transition
+              setTimeout(function() {
+                if (loader && loader.parentNode) {
+                  loader.style.display = 'none';
+                }
+
+                // Performance mark for load complete
+                if (window.performance && window.performance.mark) {
+                  window.performance.mark('loader-end');
+                  window.performance.measure('app-load-time', 'loader-start', 'loader-end');
+                }
+              }, 400);
+            }
+          }, 200);
+        });
+
+        // Fallback: Hide loader after max timeout
+        setTimeout(function() {
+          var loader = document.getElementById('initial-loader');
+          if (loader && !loader.classList.contains('hidden')) {
+            loader.classList.add('hidden');
+            setTimeout(function() {
+              loader.style.display = 'none';
+            }, 400);
+          }
+        }, 5000);
+      })();
+    </script>
+
+    <!-- Register touch events for mobile performance -->
+    <script>
+      document.addEventListener('touchstart', function() {}, { passive: true });
+    </script>
+  </body>
+</html>

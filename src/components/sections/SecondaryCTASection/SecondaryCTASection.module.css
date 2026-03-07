@@ -1,0 +1,484 @@
+/* ============================================
+   SecondaryCTASection Styles
+   Orange-themed Foundation Course CTA
+   ============================================ */
+
+/* Section Container */
+.section {
+  position: relative;
+  padding: var(--space-16) 0;
+  background: linear-gradient(135deg, #ff6d00 0%, #e65100 100%);
+  overflow: hidden;
+}
+
+/* Background Pattern */
+.bgPattern {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(
+      circle at 15% 30%,
+      rgba(255, 255, 255, 0.08) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 85% 70%,
+      rgba(255, 255, 255, 0.06) 0%,
+      transparent 40%
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 40px,
+      rgba(255, 255, 255, 0.02) 40px,
+      rgba(255, 255, 255, 0.02) 80px
+    );
+  pointer-events: none;
+}
+
+/* Content Container */
+.content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-6);
+}
+
+/* Badge */
+.badgeWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.badge {
+  display: inline-block;
+  padding: var(--space-2) var(--space-5);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  border-radius: var(--radius-full);
+  color: #ffffff;
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--ls-wide);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Title */
+.title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  font-weight: var(--fw-bold);
+  color: #ffffff;
+  line-height: var(--lh-tight);
+  max-width: 700px;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: var(--fs-md);
+  color: rgba(255, 255, 255, 0.9);
+  line-height: var(--lh-relaxed);
+  max-width: 650px;
+}
+
+/* ============================================
+   Highlights Row
+   ============================================ */
+.highlightsRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-6);
+  flex-wrap: wrap;
+  padding: var(--space-3) 0;
+}
+
+.highlightItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: #ffffff;
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-semibold);
+}
+
+.highlightIcon {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* ============================================
+   Course Cards Grid
+   ============================================ */
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6);
+  width: 100%;
+  max-width: 960px;
+  margin: var(--space-4) auto;
+}
+
+.courseCard {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(16px);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-6);
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  cursor: default;
+  transition: box-shadow 0.3s ease;
+}
+
+.courseCard:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.cardIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius-xl);
+  margin-bottom: var(--space-3);
+  font-size: 1.75rem;
+  color: #ffffff;
+}
+
+.cardTitle {
+  font-family: var(--font-heading);
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-bold);
+  color: #ffffff;
+  margin: 0 0 var(--space-1) 0;
+}
+
+.cardEligibility {
+  font-size: var(--fs-sm);
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0 0 var(--space-4) 0;
+  font-weight: var(--fw-medium);
+}
+
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.cardDetail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  font-size: var(--fs-sm);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.cardDetail svg {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+  flex-shrink: 0;
+}
+
+/* ============================================
+   Form Section Layout
+   ============================================ */
+.formSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-8);
+  width: 100%;
+  max-width: 960px;
+  margin-top: var(--space-4);
+  align-items: start;
+}
+
+/* Form Card */
+.formCard {
+  background: #ffffff;
+  border-radius: var(--radius-2xl);
+  padding: var(--space-8);
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.15),
+    0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.formHeader {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-6);
+}
+
+.formHeaderIcon {
+  font-size: 2rem;
+  color: #ff6d00;
+}
+
+.formTitle {
+  font-family: var(--font-heading);
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-bold);
+  color: var(--primary-dark);
+  margin: 0;
+}
+
+.formSubtitle {
+  font-size: var(--fs-sm);
+  color: #666;
+  margin: var(--space-1) 0 0 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.submitBtn {
+  margin-top: var(--space-2);
+  box-shadow: 0 6px 20px rgba(255, 109, 0, 0.35);
+}
+
+/* ============================================
+   Why Start Early Card
+   ============================================ */
+.whyEarlyCard {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-8);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.whyEarlyTitle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-heading);
+  font-size: var(--fs-xl);
+  font-weight: var(--fw-bold);
+  color: #ffffff;
+  margin: 0 0 var(--space-6) 0;
+}
+
+.whyEarlyIcon {
+  font-size: 1.5rem;
+  color: #fff9c4;
+}
+
+.whyEarlyList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.whyEarlyItem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: start;
+  gap: var(--space-3);
+  font-size: var(--fs-base);
+  color: rgba(255, 255, 255, 0.95);
+  line-height: var(--lh-relaxed);
+}
+
+.checkIcon {
+  font-size: 1.3rem;
+  color: #fff9c4;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* ============================================
+   Desktop (1024px+)
+   ============================================ */
+@media (min-width: 1024px) {
+  .section {
+    padding: var(--space-16) 0;
+  }
+
+  .highlightsRow {
+    gap: var(--space-8);
+  }
+}
+
+/* ============================================
+   Large Desktop (1280px+)
+   ============================================ */
+@media (min-width: 1280px) {
+  .cardsGrid {
+    max-width: 1060px;
+    gap: var(--space-8);
+  }
+
+  .formSection {
+    max-width: 1060px;
+  }
+}
+
+/* ============================================
+   Tablet (768px - 1023px)
+   ============================================ */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .section {
+    padding: var(--space-14) 0;
+  }
+
+  .cardsGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+  }
+
+  .courseCard {
+    padding: var(--space-4);
+  }
+
+  .formSection {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ============================================
+   Mobile (below 768px)
+   ============================================ */
+@media (max-width: 767px) {
+  .section {
+    padding: var(--space-12) 0;
+  }
+
+  .title {
+    font-size: var(--fs-2xl);
+  }
+
+  .subtitle {
+    font-size: var(--fs-sm);
+  }
+
+  .highlightsRow {
+    flex-direction: column;
+    gap: var(--space-3);
+    align-items: flex-start;
+    padding-left: var(--space-4);
+  }
+
+  .highlightItem {
+    font-size: var(--fs-xs);
+  }
+
+  .cardsGrid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    max-width: 400px;
+  }
+
+  .courseCard {
+    padding: var(--space-5);
+  }
+
+  .formSection {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .formCard {
+    padding: var(--space-6);
+  }
+
+  .whyEarlyCard {
+    padding: var(--space-6);
+  }
+
+  .whyEarlyItem {
+    font-size: var(--fs-sm);
+  }
+}
+
+/* Small Mobile (below 480px) */
+@media (max-width: 479px) {
+  .section {
+    padding: var(--space-10) 0;
+  }
+
+  .title {
+    font-size: var(--fs-xl);
+  }
+
+  .subtitle {
+    font-size: var(--fs-xs);
+    line-height: 1.7;
+  }
+
+  .formCard {
+    padding: var(--space-5);
+  }
+
+  .cardTitle {
+    font-size: var(--fs-base);
+  }
+
+  .whyEarlyTitle {
+    font-size: var(--fs-lg);
+  }
+}
+
+/* ============================================
+   Touch Device Optimizations
+   ============================================ */
+@media (hover: none) and (pointer: coarse) {
+  .courseCard:hover {
+    transform: none;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* ============================================
+   Reduced Motion
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+  .courseCard {
+    transition: none;
+  }
+}
+
+/* ============================================
+   Print Styles
+   ============================================ */
+@media print {
+  .section {
+    background: #fff3e0;
+    padding: var(--space-8) 0;
+  }
+
+  .bgPattern {
+    display: none;
+  }
+
+  .title,
+  .subtitle,
+  .cardTitle,
+  .cardEligibility,
+  .whyEarlyTitle,
+  .whyEarlyItem {
+    color: #333 !important;
+  }
+
+  .formCard {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  }
+}
