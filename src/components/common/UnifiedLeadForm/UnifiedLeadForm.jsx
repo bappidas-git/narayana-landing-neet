@@ -36,14 +36,13 @@ import {
 import styles from "./UnifiedLeadForm.module.css";
 
 // Local storage key for leads
-const LEADS_STORAGE_KEY = "narayana_jee_submitted_leads";
+const LEADS_STORAGE_KEY = "narayana_neet_submitted_leads";
 
 // Course interest options
 const COURSE_OPTIONS = [
-  "2-Year Programme (TYCP)",
-  "Apex/Spark Programme",
-  "1-Year Programme (OYCP)",
-  "Repeater/Dropper Course",
+  "2-Year Programme (TYCP) for NEET",
+  "1-Year Programme (OYCP) for NEET",
+  "Repeater/Dropper Course for NEET",
   "Foundation Course (Class 8-10)",
   "Not Sure - Need Guidance",
 ];
@@ -94,7 +93,7 @@ const PrivacyPolicyContent = () => (
         Narayana Coaching Centers ("we," "our," or "us") respects your privacy
         and is committed to protecting your personal data. This Privacy Policy
         explains how we collect, use, disclose, and safeguard your information
-        when you visit our website or engage with our services for IIT-JEE
+        when you visit our website or engage with our services for NEET
         coaching programmes.
       </p>
     </section>

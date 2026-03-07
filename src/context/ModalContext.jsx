@@ -25,19 +25,19 @@ export const MODAL_TYPES = {
 export const DRAWER_TITLES = {
   'enroll-now': {
     title: 'Enroll Now',
-    subtitle: 'Start your IIT-JEE journey with Narayana Coaching Centers',
+    subtitle: 'Start your NEET journey with Narayana Coaching Centers',
   },
   'get-course-details': {
     title: 'Get Course Details',
-    subtitle: 'Get complete information about our IIT-JEE programmes',
+    subtitle: 'Get complete information about our NEET programmes',
   },
   'book-free-demo': {
     title: 'Book a Free Demo Class',
-    subtitle: 'Experience Narayana\'s teaching methodology firsthand',
+    subtitle: 'Experience Narayana\'s NEET teaching methodology firsthand',
   },
   'download-brochure': {
     title: 'Download Brochure',
-    subtitle: 'Get the complete course brochure with all details',
+    subtitle: 'Get the complete NEET course brochure with all details',
   },
   'request-callback': {
     title: 'Request a Callback',
@@ -49,7 +49,7 @@ export const DRAWER_TITLES = {
   },
   'foundation-enroll': {
     title: 'Enroll in Foundation Course',
-    subtitle: 'Start early preparation for IIT-JEE from Class 8/9/10',
+    subtitle: 'Start early preparation for NEET & IIT-JEE from Class 8/9/10',
   },
   'default': {
     title: 'Get Expert Guidance',

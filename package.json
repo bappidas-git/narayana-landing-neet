@@ -1,7 +1,7 @@
 {
-  "name": "narayana-iit-jee-guwahati",
+  "name": "narayana-neet-guwahati",
   "version": "1.0.0",
-  "description": "Narayana Coaching Centers | Best IIT-JEE Coaching in Guwahati, Assam | 47+ Years Legacy | Top Results | NACST & NSAT Scholarship up to 90% | Enroll Now",
+  "description": "Narayana Coaching Centers | Best NEET Coaching in Guwahati, Assam | 47+ Years Legacy | 5 in Top 10 AIR | 3128 Doctors in 2024 | NACST & NSAT Scholarship up to 90% | Enroll Now",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.3",
@@ -55,14 +55,16 @@
   "license": "UNLICENSED",
   "keywords": [
     "narayana-coaching",
-    "iit-jee-coaching",
-    "jee-main-advanced",
+    "neet-coaching",
+    "neet-preparation",
     "guwahati-coaching",
-    "assam-iit-coaching",
+    "assam-neet-coaching",
     "narayana-guwahati",
-    "best-jee-coaching",
+    "best-neet-coaching",
     "nacst-scholarship",
-    "engineering-entrance",
-    "competitive-exam-coaching"
+    "medical-entrance-coaching",
+    "neet-classes-guwahati",
+    "mbbs-entrance",
+    "narayana-neet"
   ]
 }
