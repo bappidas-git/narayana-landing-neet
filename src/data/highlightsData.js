@@ -1,8 +1,3 @@
-/* ============================================
-   Highlights Data - Narayana IIT-JEE Coaching
-   Key highlights and features
-   ============================================ */
-
 export const highlightsData = [
   {
     id: 1,
@@ -15,32 +10,32 @@ export const highlightsData = [
   {
     id: 2,
     icon: 'mdi:podium-gold',
-    title: 'Top IIT-JEE Results Every Year',
-    description: '5 out of Top 10 All India Rankers every year (Open Category). 30 students in Top-100 AIR in JEE Advanced.',
+    title: 'Top NEET Results 2024',
+    description: '5 out of Top 10 All India Rankers (All Categories) were from Narayana in NEET 2024.',
     stat: '5',
     statLabel: 'in Top 10 AIR',
   },
   {
     id: 3,
-    icon: 'mdi:school',
-    title: '950+ Schools & 350+ Centres',
-    description: 'Narayana Group operates 950+ schools and 350+ coaching centres across India.',
-    stat: '950+',
-    statLabel: 'Schools Pan India',
+    icon: 'mdi:stethoscope',
+    title: '3,128 Doctors in 2024',
+    description: 'A total of 3,128 Narayana students achieved their dream of becoming doctors in 2024.',
+    stat: '3128',
+    statLabel: 'Selections in 2024',
   },
   {
     id: 4,
     icon: 'mdi:book-open-page-variant',
     title: 'Scientifically Designed Material',
-    description: 'Well-researched study material developed by IIT-JEE experts with micro-schedules and test planners.',
+    description: 'Well-researched study material developed by NEET experts with micro-schedules and test planners.',
     stat: '14000+',
     statLabel: 'Teaching Hours',
   },
   {
     id: 5,
     icon: 'mdi:cash-multiple',
-    title: 'Up to 90% Scholarship via NACST & NSAT',
-    description: 'Up to 90% Scholarship through NACST & NSAT (Narayana Admission cum Scholarship Test & Narayana Scholastic Aptitude Test).',
+    title: 'Up to 90% Scholarship',
+    description: 'Avail scholarships up to 90% through NACST & NSAT (Narayana Admission cum Scholarship Test & Narayana Scholastic Aptitude Test).',
     stat: '90%',
     statLabel: 'Max Scholarship',
   },
@@ -48,7 +43,7 @@ export const highlightsData = [
     id: 6,
     icon: 'mdi:map-marker-radius',
     title: 'Now in Guwahati',
-    description: 'Narayana Coaching Center is now available in Guwahati, bringing world-class IIT-JEE coaching to Assam & North-East India.',
+    description: 'Narayana Coaching Center is now available in Guwahati, bringing world-class NEET coaching to Assam & North-East India.',
     stat: '350+',
     statLabel: 'Coaching Centres',
   },
@@ -61,7 +56,3 @@ export const highlightsData = [
     statLabel: 'Schools Pan India',
   },
 ];
-
-export default {
-  highlightsData,
-};

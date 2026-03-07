@@ -1,59 +1,38 @@
-/* ============================================
-   Courses Data - Narayana IIT-JEE Coaching
-   Course configurations and details
-   ============================================ */
-
 export const coursesData = [
   {
-    id: 'tycp',
-    name: 'Two-Year Classroom Programme (TYCP)',
+    id: 'tycp-neet',
+    name: 'Two-Year Classroom Programme (TYCP) for NEET',
     shortName: '2-Year Programme (TYCP)',
     target: 'Class 11 Students',
     duration: '2 Years',
-    description: 'For students preparing for IIT-JEE Main & Advanced alongside XII Boards. 8 units across 2 academic sessions with comprehensive revision and mock tests.',
-    features: ['Board + JEE Syllabus Coverage', 'Micro-Schedule & Test Planners', 'All India Test Series', 'Up to 90% Scholarship via NACST & NSAT'],
+    description: 'Specifically crafted for Class XI students preparing for NEET and XII Boards simultaneously. Strong foundation building with 8 units across 2 academic sessions.',
+    features: ['Board + NEET Syllabus Coverage', 'Micro-Schedule & Test Planners', 'All India Test Series', 'Up to 90% Scholarship via NACST & NSAT'],
     frequency: '3-4 days/week (12-16 hrs/week)',
     badge: 'Most Popular',
     icon: 'mdi:clock-time-eight',
   },
   {
-    id: 'apex',
-    name: 'Apex/Spark Integrated Programme',
-    shortName: 'Apex/Spark',
-    target: 'Class 11 Students',
-    duration: '2 Years',
-    description: 'Extensive IIT-JEE Main & Advanced coverage with 14,000+ hours of teaching across four phases. Includes detailed teaching, practice sessions, and review classes.',
-    features: ['14,000+ Teaching Hours', 'Four Phase Programme', 'Intensive Practice Sessions', 'Grand Success Package'],
-    frequency: '3-4 days/week (12-16 hrs/week)',
-    badge: 'Premium',
-    icon: 'mdi:rocket-launch',
-  },
-  {
-    id: 'oycp',
-    name: 'One-Year Classroom Programme (OYCP)',
+    id: 'oycp-neet',
+    name: 'One-Year Classroom Programme (OYCP) for NEET',
     shortName: '1-Year Programme (OYCP)',
     target: 'Class 11 → 12 Students',
     duration: '1 Year',
-    description: 'Specifically designed for students moving from XI to XII grade. Meticulously crafted curriculum covering IIT-JEE and Board exam syllabus.',
-    features: ['Complete JEE + Board Coverage', 'Starting April/May', 'Systematic Testing', 'Review Classes'],
+    description: 'Tailored for students transitioning from Class XI to XII. Carefully crafted curriculum covering NEET exam and Board syllabus extensively.',
+    features: ['Complete NEET + Board Coverage', 'Starting April/May', 'Systematic Testing', 'Review Classes for Entire Syllabus'],
     frequency: '3-4 days/week (12-16 hrs/week)',
     badge: null,
     icon: 'mdi:calendar-clock',
   },
   {
-    id: 'repeater',
-    name: 'Dropper/Repeater Programme',
+    id: 'repeater-neet',
+    name: 'Dropper/Repeater Programme for NEET',
     shortName: 'Repeater Course',
     target: 'XII Passed Students',
     duration: '1 Year',
-    description: 'Dedicated programme for XII-passed students focusing solely on IIT-JEE entrance preparation. Comprehensive study materials, test series, and mock tests.',
-    features: ['100% Entrance Focused', 'Speed & Accuracy Training', 'Daily All-Subject Classes', 'Concept Strengthening'],
-    frequency: '4-5 days/week (all subjects daily)',
+    description: 'Exclusively focused on NEET entrance preparation for XII-passed students. Comprehensive study materials, mock tests, and speed & accuracy training.',
+    features: ['100% NEET Entrance Focused', 'Speed & Accuracy Training', 'Comprehensive Mock Tests', 'Concept Strengthening'],
+    frequency: '3-4 days/week (12-16 hrs/week)',
     badge: null,
     icon: 'mdi:refresh-circle',
   },
 ];
-
-export default {
-  coursesData,
-};

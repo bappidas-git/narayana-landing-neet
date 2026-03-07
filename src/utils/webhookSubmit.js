@@ -52,12 +52,12 @@ export const submitLeadToWebhook = async (leadData) => {
     await new Promise((resolve) => setTimeout(resolve, 1500));
 
     // Store in localStorage for testing verification
-    const existingLeads = JSON.parse(localStorage.getItem('narayana_test_leads') || '[]');
+    const existingLeads = JSON.parse(localStorage.getItem('narayana_neet_test_leads') || '[]');
     existingLeads.push(enrichedData);
-    localStorage.setItem('narayana_test_leads', JSON.stringify(existingLeads));
+    localStorage.setItem('narayana_neet_test_leads', JSON.stringify(existingLeads));
 
     console.log(`[DUMMY MODE] Lead stored. Total test leads: ${existingLeads.length}`);
-    console.log('To view all test leads, run in console: JSON.parse(localStorage.getItem("narayana_test_leads"))');
+    console.log('To view all test leads, run in console: JSON.parse(localStorage.getItem("narayana_neet_test_leads"))');
 
     return { success: true, message: 'Lead captured successfully (test mode)' };
   }
@@ -89,7 +89,7 @@ export const submitLeadToWebhook = async (leadData) => {
  * (Duplicate prevention)
  */
 export const isDuplicateLead = (mobile) => {
-  const storageKey = 'narayana_jee_submitted_leads';
+  const storageKey = 'narayana_neet_submitted_leads';
   const existingLeads = JSON.parse(localStorage.getItem(storageKey) || '[]');
   return existingLeads.some((lead) => lead.mobile === mobile);
 };
@@ -98,7 +98,7 @@ export const isDuplicateLead = (mobile) => {
  * Mark a mobile number as submitted (for duplicate prevention)
  */
 export const markLeadAsSubmitted = (mobile) => {
-  const storageKey = 'narayana_jee_submitted_leads';
+  const storageKey = 'narayana_neet_submitted_leads';
   const existingLeads = JSON.parse(localStorage.getItem(storageKey) || '[]');
   existingLeads.push({ mobile, timestamp: Date.now() });
   localStorage.setItem(storageKey, JSON.stringify(existingLeads));
