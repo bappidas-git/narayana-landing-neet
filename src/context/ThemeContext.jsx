@@ -1,5 +1,5 @@
 /* ============================================
-   Theme Context - Narayana IIT-JEE
+   Theme Context - Narayana NEET
    Handles theme preferences (light/dark mode)
    ============================================ */
 

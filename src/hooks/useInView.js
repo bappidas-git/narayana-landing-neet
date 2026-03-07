@@ -1,5 +1,5 @@
 /* ============================================
-   useInView Hook - Narayana IIT-JEE
+   useInView Hook - Narayana NEET
    Custom hook for detecting element visibility
    ============================================ */
 

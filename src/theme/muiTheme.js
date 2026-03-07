@@ -1,6 +1,6 @@
 /* ============================================
    MUI Theme Configuration - Narayana Coaching Centers
-   IIT-JEE Landing Page
+   NEET Coaching Landing Page
    ============================================ */
 
 import { createTheme, alpha } from '@mui/material/styles';

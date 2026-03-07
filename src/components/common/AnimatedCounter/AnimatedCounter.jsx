@@ -1,5 +1,5 @@
 /* ============================================
-   AnimatedCounter Component - Narayana IIT-JEE
+   AnimatedCounter Component - Narayana NEET
    Animated number counter with scroll trigger
    ============================================ */
 

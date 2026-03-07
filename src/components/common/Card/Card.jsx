@@ -1,5 +1,5 @@
 /* ============================================
-   Card Component - Narayana IIT-JEE
+   Card Component - Narayana NEET
    Reusable card with multiple variants and animations
    ============================================ */
 

@@ -1,5 +1,5 @@
 /* ============================================
-   useMediaQuery Hook - Narayana IIT-JEE
+   useMediaQuery Hook - Narayana NEET
    Custom hook for responsive design
    ============================================ */
 

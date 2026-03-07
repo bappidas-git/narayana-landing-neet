@@ -1,5 +1,5 @@
 /* ============================================
-   Formatters - Narayana IIT-JEE Coaching
+   Formatters - Narayana NEET Coaching
    Utility functions for formatting data
    ============================================ */
 

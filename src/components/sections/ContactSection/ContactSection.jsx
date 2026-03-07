@@ -75,7 +75,7 @@ const ContactSection = () => {
       icon: "mdi:whatsapp",
       title: "WhatsApp",
       content: "Quick Chat",
-      href: "https://wa.me/916002500672",
+      href: "https://wa.me/916002500672?text=Hi,%20I%20am%20interested%20in%20Narayana%20NEET%20Coaching%20in%20Guwahati",
       external: true,
     },
     {
@@ -123,7 +123,7 @@ const ContactSection = () => {
               <span>Call Now</span>
             </a>
             <a
-              href="https://wa.me/916002500672"
+              href="https://wa.me/916002500672?text=Hi,%20I%20am%20interested%20in%20Narayana%20NEET%20Coaching%20in%20Guwahati"
               target="_blank"
               rel="noopener noreferrer"
               className={`${styles.quickActionBtn} ${styles.quickActionWhatsapp}`}
