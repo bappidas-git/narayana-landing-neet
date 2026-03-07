@@ -339,16 +339,16 @@ const quickLinks = [
 
 // Courses data
 const courses = [
-  { label: "IIT-JEE Coaching", href: "#overview" },
+  { label: "NEET Coaching", href: "#overview" },
   {
-    label: "NEET Coaching",
-    href: "https://www.narayanacoachingcenters.in/neet-coaching",
+    label: "IIT-JEE Coaching",
+    href: "https://www.narayanacoachingcenters.in/iit-jee-coaching",
     external: true,
   },
   { label: "Foundation Courses", href: "#overview" },
   {
     label: "Crash Courses",
-    href: "https://www.narayanacoachingcenters.in/iit-crash-course",
+    href: "https://www.narayanacoachingcenters.in/neet-crash-course",
     external: true,
   },
   {

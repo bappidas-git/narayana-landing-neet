@@ -27,7 +27,7 @@ const categoryAccentIcons = {
 
 // Course highlights strip items
 const courseHighlights = [
-  { icon: "mdi:book-open-page-variant", label: "Complete Board + JEE Syllabus" },
+  { icon: "mdi:book-open-page-variant", label: "Complete Board + NEET Syllabus" },
   { icon: "mdi:earth", label: "All India Test Series" },
   { icon: "mdi:account-question", label: "Doubt Clearing Sessions" },
   { icon: "mdi:calendar-clock", label: "Micro-Schedule & Test Planners" },
@@ -120,7 +120,7 @@ const FeaturesSection = () => {
                 marginTop: "0.75rem",
               }}
             >
-              A complete ecosystem designed for your IIT-JEE success
+              A complete ecosystem designed for your NEET success
             </Typography>
           </motion.div>
 
@@ -268,7 +268,7 @@ const FeaturesSection = () => {
                 marginBottom: "1rem",
               }}
             >
-              Ready to start your IIT-JEE journey?
+              Ready to start your NEET journey?
             </Typography>
             <Button
               variant="contained"

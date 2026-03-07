@@ -1,6 +1,6 @@
 /* ============================================
    AboutSection Component - About Narayana
-   IIT-JEE legacy, stats, content grid & differentiators
+   NEET legacy, stats, content grid & differentiators
    ============================================ */
 
 import React from "react";
@@ -57,9 +57,9 @@ const keyStats = [
     color: "#1A237E",
   },
   {
-    value: "30",
+    value: "3128",
     suffix: "",
-    label: "Students in Top 100 AIR",
+    label: "Doctors in 2024",
     icon: "mdi:star-circle",
     color: "#FF6D00",
   },
@@ -163,7 +163,7 @@ const AboutSection = () => {
                 letterSpacing: "-0.01em",
               }}
             >
-              Why Choose Narayana for IIT-JEE?
+              Why Choose Narayana for NEET?
             </Typography>
             <Typography
               variant="h3"
@@ -176,7 +176,7 @@ const AboutSection = () => {
                 marginTop: "0.5rem",
               }}
             >
-              India's Most Trusted Name in IIT-JEE Coaching Since 1979
+              India's Most Trusted Name in NEET Coaching Since 1979
             </Typography>
           </motion.div>
 
@@ -217,13 +217,13 @@ const AboutSection = () => {
               <Typography className={styles.contentParagraph}>
                 For more than forty-seven years, Narayana Group has established
                 unparalleled standards in academic excellence. Consistently
-                producing top performers in IIT-JEE since inception, Narayana is
-                now the best coaching center for IIT-JEE in India.
+                producing top performers in NEET since inception, Narayana is
+                now the best coaching center for NEET in India.
               </Typography>
               <Typography className={styles.contentParagraph}>
-                In JEE Advanced, 5 out of the top-10 rankers every year (Open category)
-                were from Narayana. 30 students in
-                top-100 ranks in the open category.
+                In NEET 2024, 5 out of the top-10 All India Rankers (All Categories)
+                were from Narayana. A total of 3,128 students achieved their dream of
+                becoming doctors.
               </Typography>
               <Button
                 variant="contained"

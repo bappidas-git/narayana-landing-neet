@@ -1,5 +1,5 @@
 /* ============================================
-   SecondaryCTASection Component - Narayana IIT-JEE
+   SecondaryCTASection Component - Narayana NEET
    Foundation Course CTA with inline lead form
    Placed before footer for Class 8-10 students
    ============================================ */
@@ -34,7 +34,7 @@ import {
 } from "../../../utils/validators";
 import styles from "./SecondaryCTASection.module.css";
 
-const LEADS_STORAGE_KEY = "narayana_jee_submitted_leads";
+const LEADS_STORAGE_KEY = "narayana_neet_submitted_leads";
 
 const CLASS_OPTIONS = ["Class 7", "Class 8", "Class 9", "Class 10"];
 const PROGRAMME_OPTIONS = [
@@ -88,7 +88,7 @@ const courseCards = [
 
 const highlights = [
   { text: "1, 2 & 3-Year Programmes", icon: "mdi:calendar-clock" },
-  { text: "Covers IIT-JEE + NEET + Olympiads", icon: "mdi:book-open-variant" },
+  { text: "Covers NEET + IIT-JEE + Olympiads", icon: "mdi:book-open-variant" },
   { text: "NTSE & INSPIRE Preparation", icon: "mdi:medal" },
   { text: "Scholarships via NSAT", icon: "mdi:school" },
 ];
@@ -97,7 +97,7 @@ const whyStartEarly = [
   "More time to build strong concepts",
   "Less likely to get overwhelmed by competition",
   "Prepares for Olympiads, NTSE, and INSPIRE simultaneously",
-  "Smoother transition to advanced IIT-JEE preparation",
+  "Smoother transition to advanced NEET & IIT-JEE preparation",
 ];
 
 const SecondaryCTASection = () => {
@@ -325,7 +325,7 @@ const SecondaryCTASection = () => {
               className={styles.title}
               sx={{ color: "#fff" }}
             >
-              Foundation Courses for IIT-JEE & NEET
+              Foundation Courses for NEET & IIT-JEE
             </Typography>
           </motion.div>
 

@@ -1,5 +1,5 @@
 /* ============================================
-   StatsSection Component - Narayana IIT-JEE
+   StatsSection Component - Narayana NEET
    Project highlights with expand/collapse functionality
    ============================================ */
 
@@ -142,7 +142,7 @@ const StatsSection = () => {
                 <div className={styles.towerImageContainer}>
                   <img
                     src="https://images.unsplash.com/photo-1562774053-701939374585?w=600&h=800&fit=crop"
-                    alt="Narayana IIT-JEE Centre"
+                    alt="Narayana NEET Centre"
                     className={styles.towerImage}
                     loading="lazy"
                   />

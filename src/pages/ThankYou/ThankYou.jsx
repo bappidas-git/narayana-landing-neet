@@ -1,5 +1,5 @@
 /* ============================================
-   ThankYou Page - Narayana IIT-JEE
+   ThankYou Page - Narayana NEET
    Post lead submission confirmation page
    ============================================ */
 
@@ -13,7 +13,7 @@ import styles from './ThankYou.module.css';
 
 // Programme highlights for display
 const projectHighlights = [
-  { icon: 'mdi:school', label: 'Expert IIT-JEE Faculty', color: '#FF6D00' },
+  { icon: 'mdi:school', label: 'Expert NEET Faculty', color: '#FF6D00' },
   { icon: 'mdi:trophy-award', label: 'Top JEE Results', color: '#4CAF50' },
   { icon: 'mdi:book-open-page-variant', label: 'Comprehensive Study Material', color: '#2196F3' },
   { icon: 'mdi:account-group', label: 'Small Batch Sizes', color: '#9C27B0' },
@@ -22,7 +22,7 @@ const projectHighlights = [
 // Contact details
 const contactInfo = {
   companyName: 'Narayana Coaching Centers',
-  designation: 'IIT-JEE Coaching Excellence',
+  designation: 'NEET Coaching Excellence',
   phone: '+91-6002500672',
   altPhone: '+91-6002500672',
   email: 'bm.guwahati@narayanagroup.com',
@@ -203,7 +203,7 @@ const ThankYou = () => {
                 What happens next?
               </Typography>
               <Typography className={styles.noticeDesc} sx={{ color: '#FFFFFFA6 !important' }}>
-                Our academic counsellor will reach out to discuss the best IIT-JEE programme for you
+                Our academic counsellor will reach out to discuss the best NEET programme for you
               </Typography>
             </div>
           </motion.div>

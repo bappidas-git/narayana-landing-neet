@@ -17,7 +17,7 @@ const navItems = [
     icon: "ic:baseline-whatsapp",
     color: "#25D366",
     action: "whatsapp",
-    href: "https://wa.me/916002500672?text=Hi,%20I%20am%20interested%20in%20Narayana%20IIT-JEE%20Coaching%20in%20Guwahati",
+    href: "https://wa.me/916002500672?text=Hi,%20I%20am%20interested%20in%20Narayana%20NEET%20Coaching%20in%20Guwahati",
   },
   {
     id: "call",

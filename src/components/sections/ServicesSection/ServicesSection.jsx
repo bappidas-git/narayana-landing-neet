@@ -1,6 +1,6 @@
 /* ============================================
-   CoursesSection Component - Narayana IIT-JEE
-   Showcases IIT-JEE programmes with cards grid
+   CoursesSection Component - Narayana NEET
+   Showcases NEET programmes with cards grid
    and comparison table
    ============================================ */
 
@@ -64,23 +64,23 @@ const cardVariants = {
 
 // Comparison data
 const comparisonData = {
-  headers: ["Feature", "2-Year (TYCP)", "Apex/Spark", "1-Year (OYCP)", "Repeater"],
+  headers: ["Feature", "2-Year (TYCP)", "1-Year (OYCP)", "Repeater"],
   rows: [
     {
       label: "Duration",
-      values: ["2 Years", "2 Years", "1 Year", "1 Year"],
+      values: ["2 Years", "1 Year", "1 Year"],
     },
     {
       label: "Target",
-      values: ["Class 11", "Class 11", "Class 11→12", "XII Passed"],
+      values: ["Class 11", "Class 11→12", "XII Passed"],
     },
     {
       label: "Board Coverage",
-      values: ["Yes", "Yes", "Yes", "No"],
+      values: ["Yes", "Yes", "No"],
     },
     {
       label: "Frequency",
-      values: ["3-4 days/week", "3-4 days/week", "3-4 days/week", "4-5 days/week"],
+      values: ["3-4 days/week", "3-4 days/week", "3-4 days/week"],
     },
   ],
 };
@@ -221,7 +221,7 @@ const ServicesSection = () => {
                 lineHeight: 1.2,
               }}
             >
-              Our IIT-JEE{" "}
+              Our NEET{" "}
               <span className={styles.accentText}>Programmes</span>
             </Typography>
             <Typography
@@ -234,7 +234,7 @@ const ServicesSection = () => {
                 maxWidth: "480px",
               }}
             >
-              Choose the right programme for your IIT-JEE preparation
+              Choose the right programme for your NEET preparation
             </Typography>
           </motion.div>
 
@@ -374,7 +374,7 @@ const ServicesSection = () => {
                       fontFamily: 'Poppins, sans-serif',
                     }}
                   >
-                    Foundation Courses for IIT-JEE & NEET
+                    Foundation Courses for NEET & IIT-JEE
                   </Typography>
                   <Typography
                     sx={{
