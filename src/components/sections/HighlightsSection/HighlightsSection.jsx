@@ -157,6 +157,19 @@ const HighlightsSection = () => {
             </Typography>
           </motion.div>
 
+          {/* NEET 2025 Results Banner */}
+          <motion.div
+            variants={itemVariants}
+            className={styles.resultsBannerWrapper}
+          >
+            <img
+              src="https://res.cloudinary.com/dn9gyaiik/image/upload/v1773039870/NEET-2025_joucrd.png"
+              alt="Narayana NEET 2025 Results"
+              className={styles.resultsBannerImage}
+              loading="lazy"
+            />
+          </motion.div>
+
           {/* Results Highlight Cards */}
           <motion.div variants={itemVariants} className={styles.resultsGrid}>
             {resultsData.map((card, index) => (
