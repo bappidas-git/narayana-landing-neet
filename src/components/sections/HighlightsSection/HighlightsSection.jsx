@@ -263,13 +263,18 @@ const HighlightsSection = () => {
               <div className={styles.scholarshipTextBlock}>
                 <Typography
                   className={styles.scholarshipHeading}
-                  sx={{ color: "#fff", fontWeight: "bold" }}
+                  sx={{ color: "#f67100", fontWeight: "400", fontSize: "2rem" }}
                 >
                   Get Up to 90% Scholarship via NACST & NSAT!
                 </Typography>
                 <Typography
                   className={styles.scholarshipDesc}
-                  sx={{ color: "#fff" }}
+                  sx={{
+                    color: "#fff",
+                    lineHeight: "1.4",
+                    fontWeight: 300,
+                    fontSize: "1rem",
+                  }}
                 >
                   Register for NACST (Narayana Admission cum Scholarship Test)
                   or NSAT (Narayana Scholastic Aptitude Test) and avail
